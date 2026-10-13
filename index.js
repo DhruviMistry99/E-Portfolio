@@ -11,10 +11,11 @@ function contact(event) {
         //    console.log('this worked')
        // })
  //}
-    //const loading = document.querySelector('.modal__overlay--loading');
-    //const success = document.querySelector('.modal__overlay--success');
-    //loading.classList += " modal__overlay--visible"
+    const loading = document.querySelector('.modal__overlay--loading');
+    const success = document.querySelector('.modal__overlay--success');
+    loading.classList += " modal__overlay--visible"
     setTimeout(() => {
         console.log('it worked1')
 },500);
 }
+
