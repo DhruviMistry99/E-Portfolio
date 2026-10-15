@@ -377,7 +377,7 @@ Modal STYLE
     padding: 28px;
 }
 
-.modal__overlay--visable {
+.modal__overlay--visible {
     z-index: 1;
 }
 
