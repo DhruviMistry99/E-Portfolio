@@ -39,14 +39,14 @@
                     link__hover-effect--black">Projects</a>
                 </li>
 
-                <li class="nav__link">
+                <li class="nav__link" onclick="toggleModal()">
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black">Contact</a>
                 </li>
 
-                <li class="nav__link click">
+                <li class="nav__link click" onclick="toggleContrast()">
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
@@ -66,7 +66,7 @@
                          Engineer </b> with a strong passion for 
                          building web applications with great user experiences.
                         <br>
-                            Here's a bit more <b class="orange">about me.</b>
+                            Here's a bit more <b class="orange click" onclick="toggleModal()">about me.</b>
                         </p>
 
                         <div class="social__list">
@@ -86,7 +86,7 @@
                 </div>
             
         </header>
-        <button class="mail__btn click">
+        <button class="mail__btn  click" onclick="toggleModal()">
             <i class="fa-solid fa-envelope"></i>
         </button>
         <a href="#projects" class="scroll">
@@ -129,6 +129,7 @@
             </div>
 
             <div class="modal__half modal__contact">
+                <i class="fa-solid fa-xmark modal__exit click" onclick="toggleModal()"></i>
                 <h3 class="modal__title modal__title--contact">
                     Let's have a chat!
                 </h3>
@@ -159,10 +160,10 @@
                     <i class="fa-solid fa-spinner"></i>
                 </div>
                 <div class="modal__overlay modal__overlay--success">
-                    Thnaks for the message! Looking forward to speaking to you soon.
+                    Thanks for the message! Looking forward to speaking to you soon.
                 </div>
             </div>
-            <i class="fa-solid fa-xmark modal__exit click"></i>
+            
         </div>
    </section>
 
